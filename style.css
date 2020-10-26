@@ -1,0 +1,1316 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/*body {
+    font-family: Heebo;
+}*/
+
+.container{
+width: 1148px;
+}
+
+.wrapper {
+    width:100%;
+}
+
+header {
+width:100%;
+height:40px;
+background-color: white;
+}
+
+
+nav {
+
+    text-align: right;
+    margin-right: 90px;
+    word-spacing: 30px
+}
+.menuicon {
+    visibility: hidden;
+}
+a {
+font-weight: 600;
+font-size: 20px;
+line-height: 45px;
+text-decoration: none;
+color:black;
+}
+
+.section1 {
+    position: relative;
+    width:100%;
+    height:400px;
+}
+
+.section1 img {
+    position: absolute;
+    margin-left: 820px;
+    top: 120px;
+    width: 220px;
+    height: 220px;
+
+}
+.section1 h1 {
+    position: absolute;
+    margin-left:148px;
+    margin-top: 150px;
+}
+
+
+.section1 p {
+    position: absolute;
+    margin-left:148px;
+    margin-top: 247px;
+    
+}
+
+.section1 span {
+    position: absolute;
+    width: 14%;
+    height: 30px;
+    border: 1px solid #FF6464;
+    background-color: #FF6464;
+    color:white;
+    border-radius: 2px;
+    margin-left: 148px;
+    margin-top: 325px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+
+
+.section2 {
+    width:100%;
+    height:460px;
+    background: #EDF7FA;;
+    position: relative;
+}
+.section2 p {
+    position: absolute;
+    font-size: 22px;
+    left: 166px;
+    top: 20px;
+    color: #21243D;
+}
+
+.section2 .p1 {
+    position: absolute;
+    top: 20px;
+    text-align: right;
+    font-size: 16px;
+    color: #00A8CC;
+    right: 166px;
+}
+
+ .para1 {
+    position: absolute;
+    float: left;
+    width: 35%;
+    height: 295px;
+    left: 13%;
+    margin-top: 105px;
+    background: #FFFFFF;
+    border:1px solid #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(187, 225, 250, 0.25);
+    border-radius: 4px;
+}
+
+.para1 h2 {
+    font-size: 26px;
+    padding: 30px 0 0 30px;
+    
+}
+
+.para1 .p2 {
+    top: 115px;
+    left: 28px;
+    font-size: 18px;
+    color: #21243D;
+    position: absolute;
+}
+
+.para1 .p3 {
+    position: absolute;
+    font-size: 16px;
+    left: 30px;
+    top: 170px;
+
+}
+
+
+.para2 {
+    position: absolute;
+    float: left;
+    width: 35%;
+    height: 295px;
+    right: 13%;
+    margin-top: 106px;
+    background: #FFFFFF;
+    border:1px solid #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(187, 225, 250, 0.25);
+    border-radius: 4px;
+}
+
+.para2 h2 {
+    font-size: 26px;
+    padding: 30px 0 0 30px;
+}
+
+.para2 .p2 {
+    top: 115px;
+    left: 28px;
+    font-size: 18px;
+    color: #21243D;
+    position: absolute;
+}
+
+.para2 .p3 {
+    position: absolute;
+    font-size: 16px;
+    left: 30px;
+    top: 170px;
+}
+
+.section3 {
+    width:100%;
+    height:530px;
+    background: white;
+    position: relative;
+
+}
+
+.section3 p {
+    position: absolute;
+    font-size: 22px;
+    left: 166px;
+    top: 20px;
+    color: #21243D;
+}
+
+.article1 {
+    width:100%;
+    height: 310px;
+
+}
+
+.article1 img {
+    height: 180px;
+    width: 246px;
+    position: absolute;
+    top: 80px;
+    left: 166px;
+    border-radius: 6px;
+}
+
+.article1 .title {
+    position: absolute;
+    font-weight: bold;
+    font-size: 30px;
+    color: #21243D;
+    top: 75px;
+    left: 438px;
+}
+
+.article1 .span1 {
+    position: absolute;
+    font-weight: 900;
+    font-size: 18px;
+    background: #142850;
+    border: 1px solid white;
+    border-radius: 16px;
+    color:white;
+    top: 120px;
+    left: 438px;
+    width: 4%;
+    text-align: center;
+}
+
+.article1 .span2 {
+    position: absolute;
+    font-size: 20px;
+    color: #8695A4;
+    top: 120px;
+    left: 527px;
+}
+
+.article1 .paragh {
+    position: absolute;
+    font-size: 16px;
+    color: #21243D;
+    top: 185px;
+    left: 438px;
+}
+
+.article1 .vector {
+    position: absolute;
+    border: 1px solid #E0E0E0;
+    background-color: #E0E0E0;
+    top: 280px;
+    width: 858px;
+    height: 0px;
+    left: 167px;
+}
+
+.article2 {
+    width:100%;
+    height: 300px;
+
+}
+
+.article2 img {
+    height: 180px;
+    width: 246px;
+    position: absolute;
+    top: 300px;
+    left: 166px;
+    border-radius: 6px;
+}
+
+.article2 .title {
+    position: absolute;
+    font-weight: bold;
+    font-size: 30px;
+    color: #21243D;
+    top: 300px;
+    left: 438px;
+}
+
+.article2 .span1 {
+    position: absolute;
+    font-weight: 900;
+    font-size: 18px;
+    background: #142850;
+    border: 1px solid white;
+    border-radius: 16px;
+    color:white;
+    top: 345px;
+    left: 438px;
+    width: 4%;
+    text-align: center;
+}
+
+.article2 .span2 {
+    position: absolute;
+    font-size: 20px;
+    color: #8695A4;
+    top: 345px;
+    left: 527px;
+}
+
+.article2 .paragh {
+    position: absolute;
+    font-size: 16px;
+    color: #21243D;
+    top: 405px;
+    left: 438px;
+}
+
+.article2 .vector {
+    position: absolute;
+    border: 1px solid #E0E0E0;
+    background-color: #E0E0E0;
+    top: 500px;
+    width: 858px;
+    height: 0px;
+    left: 167px;
+}
+
+
+.article3 {
+    width:100%;
+    height: 300px;
+
+}
+
+.article3 img {
+    height: 180px;
+    width: 246px;
+    position: absolute;
+    top: 520px;
+    left: 166px;
+    border-radius: 6px;
+}
+
+.article3 .title {
+    position: absolute;
+    font-weight: bold;
+    font-size: 30px;
+    color: #21243D;
+    top: 520px;
+    left: 438px;
+}
+
+.article3 .span1 {
+    position: absolute;
+    font-weight: 900;
+    font-size: 18px;
+    background: #142850;
+    border: 1px solid white;
+    border-radius: 16px;
+    color:white;
+    top: 565px;
+    left: 438px;
+    width: 4%;
+    text-align: center;
+}
+
+.article3 .span2 {
+    position: absolute;
+    font-size: 20px;
+    color: #8695A4;
+    top: 565px;
+    left: 527px;
+}
+
+.article3 .paragh {
+    position: absolute;
+    font-size: 16px;
+    color: #21243D;
+    top: 625px;
+    left: 438px;
+}
+
+.article3 .vector {
+    position: absolute;
+    border: 1px solid #E0E0E0;
+    top: 720px;
+    width: 858px;
+    height: 0px;
+    left: 167px;
+}
+
+.space {
+    width:100%;
+    height:225px;
+}
+
+footer {
+    position: absolute;
+    width:100%;
+    height:170px;
+    background-color: white;
+    text-align: center;
+}
+
+footer img {
+    width:30px;
+    height:30px;
+    margin-left: 20px;
+    margin-top: 80px;
+}
+
+footer div {
+    font-size: 14px;
+    text-align: center;
+    line-height: 45px;
+    margin-left: 20px;
+}
+
+
+/*page2 */
+
+.navbar {
+    width: 100%;
+    height: 170px;
+    background-color: white;
+}
+
+header .h1 {
+    left: 20px;
+    top: 10px;
+    font-weight: 900;
+    font-size: 44px;
+    color: #21243D;
+}
+
+.navbar h1{
+    left: 160px;
+    top: 165px;
+    position: absolute;
+    color: #21243D;
+    font-size: 44px;
+}
+/*a:visited {
+    color: #FF6464;
+  }
+
+  a:link {
+    color: black;;
+  }*/
+.content {
+    width: 1148px;
+    height:770px;
+    background: white;
+    /*position: relative;*/
+    bottom: 250px;
+}
+.section2-page2 {
+    width: 100%;
+    height: 460px;
+    position: relative;
+}
+
+
+.article4 {
+    width:100%;
+    height: 300px;
+
+}
+
+.article4 img {
+    height: 180px;
+    width: 246px;
+    position: absolute;
+    top: 747px;
+    left: 166px;
+    border-radius: 6px;
+}
+
+.article4 .title {
+    position: absolute;
+    font-weight: bold;
+    font-size: 30px;
+    color: #21243D;
+    top: 747px;
+    left: 438px;
+}
+
+.article4 .span1 {
+    position: absolute;
+    font-weight: 900;
+    font-size: 18px;
+    background: #142850;
+    border: 1px solid white;
+    border-radius: 16px;
+    color:white;
+    top: 795px;
+    left: 438px;
+    width: 4%;
+    text-align: center;
+}
+
+.article4 .span2 {
+    position: absolute;
+    font-size: 20px;
+    color: #8695A4;
+    top: 795px;
+    left: 527px;
+}
+
+.article4 .paragh {
+    position: absolute;
+    font-size: 16px;
+    color: #21243D;
+    top: 847px;
+    left: 438px;
+}
+
+.article4 .vector {
+    position: absolute;
+    border: 1px solid #E0E0E0;
+    background-color: #E0E0E0;
+    top: 949px;
+    width: 858px;
+    height: 0px;
+    left: 167px;
+}
+
+.space {
+    width:100%;
+    height:225px;
+}
+
+footer {
+    position: absolute;
+    width:100%;
+    height:170px;
+    background-color: white;
+    text-align: center;
+}
+
+footer img {
+    width:30px;
+    height:30px;
+    margin-left: 20px;
+    margin-top: 80px;
+}
+
+footer div {
+    font-size: 14px;
+    text-align: center;
+    line-height: 45px;
+    margin-left: 20px;
+}
+
+/* page3 */
+
+.page3 h1{
+    position: absolute;
+    left: 160px;
+    top: 160px;
+    font-weight: 900;
+    font-size: 44px;
+    color: #21243D;
+}
+
+
+.part1 h2 {
+    position: absolute;
+    font-size: 30px;
+    color: #21243D;
+    top: 272px;
+    left: 170px;
+}
+
+.part1 .p1 {
+    top: 327px;
+    left: 170px;
+    font-size: 20px;
+    color: #21243D;
+    position: absolute;
+}
+
+.part1 .p2 {
+    position: absolute;
+    top: 327px;
+    left: 325px;
+    font-size: 20px;
+    color: #8695A4;
+}
+
+.part1 .text {
+    position: absolute;
+    font-size: 16px;
+    color: #21243D;
+    top: 375px;
+    left: 170px;
+}
+.part1 .vector {
+    position: absolute;
+    border: 1px solid #E0E0E0;
+    background-color: #E0E0E0;
+    top: 440px;
+    width: 858px;
+    height: 0px;
+    left: 167px;
+}
+
+.part2 h2 {
+    position: absolute;
+    font-size: 30px;
+    color: #21243D;
+    top: 470px;
+    left: 170px;
+}
+
+.part2 .p1 {
+    top: 525px;
+    left: 170px;
+    font-size: 20px;
+    color: #21243D;
+    position: absolute;
+}
+
+.part2 .p2 {
+    position: absolute;
+    top: 525px;
+    left: 325px;
+    font-size: 20px;
+    color: #8695A4;
+}
+
+.part2 .text {
+    position: absolute;
+    font-size: 16px;
+    color: #21243D;
+    top: 570px;
+    left: 170px;
+}
+.part2 .vector {
+    position: absolute;
+    border: 1px solid #E0E0E0;
+    background-color: #E0E0E0;
+    top: 635px;
+    width: 858px;
+    height: 0px;
+    left: 167px;
+}
+
+.part3 h2 {
+    position: absolute;
+    font-size: 30px;
+    color: #21243D;
+    top: 670px;
+    left: 170px;
+}
+
+.part3 .p1 {
+    top: 730px;
+    left: 170px;
+    font-size: 20px;
+    color: #21243D;
+    position: absolute;
+}
+
+.part3 .p2 {
+    position: absolute;
+    top: 730px;
+    left: 325px;
+    font-size: 20px;
+    color: #8695A4;
+}
+
+.part3 .text {
+    position: absolute;
+    font-size: 16px;
+    color: #21243D;
+    top: 780px;
+    left: 170px;
+}
+.part3 .vector {
+    position: absolute;
+    border: 1px solid #E0E0E0;
+    background-color: #E0E0E0;
+    top: 845px;
+    width: 858px;
+    height: 0px;
+    left: 167px;
+}
+
+.part4 h2 {
+    position: absolute;
+    font-size: 30px;
+    color: #21243D;
+    top: 870px;
+    left: 170px;
+}
+
+.part4 .p1 {
+    top: 935px;
+    left: 170px;
+    font-size: 20px;
+    color: #21243D;
+    position: absolute;
+}
+
+.part4 .p2 {
+    position: absolute;
+    top: 935px;
+    left: 325px;
+    font-size: 20px;
+    color: #8695A4;
+}
+
+.part4 .text {
+    position: absolute;
+    font-size: 16px;
+    color: #21243D;
+    top: 990px;
+    left: 170px;
+}
+.part4 .vector {
+    position: absolute;
+    border: 1px solid #E0E0E0;
+    background-color: #E0E0E0;
+    top: 1055px;
+    width: 858px;
+    height: 0px;
+    left: 167px;
+}
+
+.space3 {
+    width:100%;
+    height:1000px;
+}
+
+/* page3 */
+
+.header1 h1 {
+    position: absolute;
+    top: 120px;
+    left: 185px;
+    font-weight: bold;
+    font-size: 34px;
+    color: #21243D;
+}
+.part11 .p1 {
+    top: 238px;
+    left: 260px;
+    font-size: 20px;
+    color: #21243D;
+    position: absolute;
+}
+
+.part11 .span1 {
+    position: absolute;
+    color: white;
+    background: #FF7C7C;
+    border-radius: 16px;
+    top: 240px;
+    left: 185px;
+    width: 4%;
+    text-align: center;
+}
+
+.part11 p {
+    position: absolute;
+    font-size: 16px;
+    color: black;
+    top: 290px;
+    left: 185px;
+}
+
+.part11 img {
+    position: absolute;
+    width: 675px;
+    height: 450px;
+    left:185px;
+    top: 370px;
+}
+
+.part22 h1 {
+    position: absolute;
+    top: 880px;
+    left:185px;
+    font-size: 30px;
+    color: #21243D;
+}
+
+.part22 h2 {
+    position: absolute;
+    top: 925px;
+    left:185px;
+    font-size: 24px;
+    color: #21243D;
+}
+.part22 p {
+    position: absolute;
+    font-size: 16px;
+    color:black;
+    top: 1000px;
+    left: 185px;
+}
+
+.part22 .img1 {
+    position: absolute;
+    width: 675px;
+    height: 450px;
+    top: 1060px;
+    left:185px;
+}
+
+.part22 .img2 {
+    position: absolute;
+    width: 675px;
+    height: 450px;
+    top: 1560px;
+    left:185px;
+}
+
+.space4 {
+    width: 100%;
+    height: 1990px;
+}
+
+
+/*responsive .. IPHONE678 .. */
+
+@media(max-width: 759px) {
+    .container{
+        width:100%;
+    }
+
+    .menuicon{
+        position: absolute;
+        color: black;
+        font-size: 20px;
+        visibility: visible;
+        top: 20px;
+        right: 20px;
+ }
+    .menuicon:hover{
+        color:red;
+    }
+    
+ /*.menu-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+ .menu-content a:hover {
+    background-color: #ddd;
+  }*/
+  
+  .menuicon:hover .menu-content {
+    display: block;
+  }
+
+ a {
+     visibility: hidden;
+ }
+
+.section1 img {
+    position: absolute;
+    margin-left: 75px;
+    top: 50px;
+    width: 220px;
+    height: 175px;
+}
+
+.section1 h1 {
+    position: absolute;
+    margin-left: 78px;
+    margin-top: 263px;
+}
+
+.section1 p {
+    position: absolute;
+    margin-left: 38px;
+    margin-top: 350px;
+}
+
+.section1 span {
+    position: absolute;
+    width: 45%;
+    height: 30px;
+    border: 1px solid #FF6464;
+    background-color: #FF6464;
+    color: white;
+    border-radius: 2px;
+    margin-left: 102px;
+    margin-top: 465px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.section2{
+    width: 100%;
+    height: 880px;
+    background: #EDF7FA;
+    position: relative;
+    top: 130px;
+}
+.para1 h2 {
+    font-size: 26px;
+    padding: 30px 0 0 15px;
+}
+.para1 .p2 {
+    top: 113px;
+    left: 15px;
+    font-size: 18px;
+    color: #21243D;
+    position: absolute;
+}
+.section2 p {
+    position: absolute;
+    font-size: 22px;
+    left: 130px;
+    top: 33px;
+    color: #21243D;
+}
+.para1 .p3 {
+    
+    left: 15px;
+    top: 170px;
+}
+.section2 .p1 {
+    display: none;
+}
+
+.para1 {
+    position: absolute;
+    float: left;
+    width: 94%;
+    height: 295px;
+    left: 3%;
+    margin-top: 105px;
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(187, 225, 250, 0.25);
+    border-radius: 4px;
+}
+.para2 {
+    position: absolute;
+    float: left;
+    width: 94%;
+    height: 295px;
+    right: 3%;
+    margin-top: 417px;
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(187, 225, 250, 0.25);
+    border-radius: 4px;
+}
+
+.para2 h2 {
+    font-size: 26px;
+    padding: 30px 0 0 16px;
+}
+.para2 .p2 {
+    
+    left: 16px;
+}
+.para2 .p3 {
+    left: 16px;
+}
+.div1 {
+    width:100%;
+}
+
+.section3{
+    position: relative;
+height: 1200px;
+}
+ .section3 p {
+     position: absolute;
+    left: 130px;
+    top: 33px;
+ }
+ 
+.article1 img {
+    height: 225px;
+    width: 340px;
+    position: absolute;
+    top: 80px;
+    left: 18px;
+    border-radius: 6px;
+}
+.article1 .title {
+    top: 330px;
+    left: 18px;
+}
+.article1 .span1 {
+    top: 385px;
+    left: 18px;
+    width: 18%;
+}
+.article1 .span2{
+    top: 384px;
+    left: 110px;
+}
+.article1 .paragh{
+    top: 440px;
+    left: 18px;
+}
+.article1 .vector{
+    top: 545px;
+    width: 345px;
+    height: 0px;
+    left: 16px;
+}
+.article2 img {
+    width: 340px;
+    left:18px;
+    top: 570px;
+}
+.article2 .title {
+    top: 330px;
+    left: 18px;
+    top: 780px;
+}
+.article2 .span1 {
+    top: 830px;
+    left: 18px;
+    width: 18%;
+}
+.article2 .span2{
+    top: 830px;
+    left: 110px;
+}
+.article2 .paragh{
+    top: 880px;
+    left: 18px;
+}
+.article2 .vector{
+    top: 990px;
+    width: 345px;
+    height: 0px;
+    left: 16px;
+}
+.article3 img {
+    width: 340px;
+    left:18px;
+    top: 1010px;
+}
+.article3 .title {
+    top: 330px;
+    left: 18px;
+    top: 1210px;
+}
+.article3 .span1 {
+    top: 1255px;
+    left: 18px;
+    width: 18%;
+}
+.article3 .span2{
+    top: 1255px;
+    left: 110px;
+}
+.article3 .paragh{
+    top: 1300px;
+    left: 18px;
+}
+.article3 .vector{
+    top: 1415px;
+    width: 345px;
+    height: 0px;
+    left: 16px;
+}
+
+/*page2 */
+
+.navbar h1 {
+    left: 55px;
+    top: 188px;
+    position: absolute;
+    color: #21243D;
+    font-size: 40px;
+}
+
+.content {
+    width: 100%;
+}
+.section2-page2 {
+    width: 100%;
+    height: 591px;
+    /* position: relative; */
+    position: absolute;
+    top: 190px;
+}
+.article4 .title {
+    position: absolute;
+    font-weight: bold;
+    font-size: 30px;
+    color: #21243D;
+    top: 1650px;
+    left: 30px;
+}
+.article4 img {
+    height: 180px;
+    width: 246px;
+    position: absolute;
+    top: 1440px;
+    left: 21px;
+    border-radius: 6px;
+}
+.article4 .span1 {
+    position: absolute;
+    font-weight: 900;
+    font-size: 18px;
+    background: #142850;
+    border: 1px solid white;
+    border-radius: 16px;
+    color: white;
+    top: 1700px;
+    left: 30px;
+    width: 15%;
+    text-align: center;
+}
+.article4 .span2 {
+    position: absolute;
+    font-size: 20px;
+    color: #8695A4;
+    top: 1700px;
+    left: 100px;
+}
+.article4 .paragh {
+    position: absolute;
+    font-size: 16px;
+    color: #21243D;
+    top: 1755px;
+    left: 30px;
+}
+.section2-page2 .article4 .vector {
+    position: absolute;
+    border: 1px solid #E0E0E0;
+    background-color: #E0E0E0;
+    top: 1880px;
+    width: 340px;
+    height: 0px;
+    left: 30px;
+}
+.section2-page2 .article1 .vector{
+    width: 340px;
+}
+.section2-page2 .article2 .vector{
+    width: 340px;
+}
+.section2-page2 .article3 .vector{
+    width: 340px;
+}
+.section2-page2 .space {
+    height: 1235px;
+}
+.space.space1 {
+    height:1185px;
+}
+
+/*page3 */
+.page3 h1 {
+    position: absolute;
+    left: 7px;
+    top: 160px;
+    font-weight: 900;
+    font-size: 44px;
+    color: #21243D;
+}
+.part1 h2 {
+    
+    left: 7px;
+}
+.part1 .p1 {
+    left: 7px;  
+    top: 320px; 
+}
+.part1 .p2 {
+    left: 160px;
+    top: 320px;
+}
+.part1 .text {
+    left: 7px;
+}
+.part1 .vector {
+    position: absolute;
+    border: 1px solid #E0E0E0;
+    background-color: #E0E0E0;
+    top: 465px;
+    width: 355px;
+    height: 0px;
+    left: 7px;
+}
+.part2 h2 {
+    top: 485px;
+    left: 7px;
+}
+.part2 .p1 {
+    top: 535px;
+    left: 7px;
+}
+.part2 .p2 {
+    top: 535px;
+    left: 158px;
+    
+}
+.part2 .text {
+    top: 580px;
+    left: 7px;
+}
+.part2 .vector {
+    top: 670px;
+    left: 7px;
+    width:355px;
+}
+.part3 h2 {
+    top: 690px;
+    left: 7px;
+}
+.part3 .p1 {
+    top: 740px;
+    left: 7px;
+}
+.part3 .p2 {
+    top: 740px;
+    left: 158px;
+}
+.part3 .text {
+    top: 780px;
+    left: 7px;
+}
+.part3 .vector {
+    top: 870px; 
+    width: 355px;  
+    left: 7px;
+}
+.part4 h2 {
+    top: 891px;
+    left: 7px;
+}
+.part4 .p1 {
+    top: 940px;
+    left: 7px;
+}
+.part4 .p2 {
+    top: 940px;
+    left: 160px;
+}
+.part4 .text {
+    top: 985px;
+    left: 7px;
+}
+.part4 .vector {
+    top: 1075px;
+    width: 355px;  
+    left: 7px;
+}
+
+/*page4 */
+.header1 h1 {
+    position: absolute;
+    top: 120px;
+    left: 20px;
+    font-weight: bold;
+    font-size: 44px;
+    color: #21243D;
+}
+.part11 .span1 {
+    top: 290px;
+    left: 20px;
+    width: 18%;
+    
+}
+.part11 .p1 {
+    top: 288px;
+    left: 105px;
+}
+.part11 p {
+    top: 360px;
+    left: 20px;
+}
+.part11 img {
+    position: absolute;
+    width: 339px;
+    height: 256px;
+    left: 20px;
+    top: 450px;
+}
+.part22 h1 {
+    top: 760px;
+    left: 20px;
+}
+.part22 h2 {
+    top: 815px;
+    left: 20px;
+}
+.part22 p {
+    position: absolute;
+    font-size: 16px;
+    color: black;
+    top: 870px;
+    left: 20px;
+}
+.part22 .img1 {
+    position: absolute;
+    width: 339px;
+    height: 256px;
+    top: 980px;
+    left: 20px;
+}
+.part22 .img2 {
+    position: absolute;
+    width: 339px;
+    height: 256px;
+    top: 1267px;
+    left: 20px;
+}
+.space4 {
+    width: 100%;
+    height: 1520px;
+}
+}
